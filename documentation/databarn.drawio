@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T13:39:21.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wPc-Wc4D00_FOWKg-fxH" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T13:42:05.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Ipm21Gk5Drw8b-0nwa_c" version="22.0.8" type="github">
   <diagram name="Page-1" id="d61cFQMUThN0K3jyABDj">
-    <mxGraphModel dx="2120" dy="2549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="150" y="470" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-27" value="Archive" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-230" width="920" height="450" as="geometry" />
+          <mxGeometry x="380" y="-230" width="1380" height="530" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" target="mptU31HQFR-m2cuub4Bu-31">
           <mxGeometry relative="1" as="geometry">
@@ -50,7 +50,7 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-11" value="Any raw source" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
           <mxGeometry x="90" y="322.20000000000005" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-17" value="raw data stream" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=default;horizontal=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-17" value="raw data stream" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#ffe6cc;horizontal=0;strokeColor=#d79b00;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
           <mxGeometry x="390" y="237.2" width="30" height="230" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" source="mptU31HQFR-m2cuub4Bu-11" target="mptU31HQFR-m2cuub4Bu-17">
@@ -78,6 +78,29 @@
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-42" value="&lt;h1&gt;All raw data must be archived&lt;/h1&gt;&lt;p&gt;We don&#39;t care how much space it takes, we keep all the data.&lt;/p&gt;&lt;p&gt;Having streams make it easy to pour all data into an archive for further processing or replays if needed. We just can&#39;t loose the data.&lt;/p&gt;&lt;p&gt;We do not need to archive intermediate representations&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
           <mxGeometry x="70" y="80" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" source="mptU31HQFR-m2cuub4Bu-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="352.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-43" value="enriched / cleaned stream" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#d5e8d4;horizontal=0;strokeColor=#82b366;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
+          <mxGeometry x="1050" y="238" width="30" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" source="mptU31HQFR-m2cuub4Bu-24" target="mptU31HQFR-m2cuub4Bu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" source="mptU31HQFR-m2cuub4Bu-45" target="mptU31HQFR-m2cuub4Bu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-45" value="another stream" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#d5e8d4;horizontal=0;strokeColor=#82b366;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-27">
+          <mxGeometry x="390" y="300" width="30" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-27" target="mptU31HQFR-m2cuub4Bu-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="415" as="sourcePoint" />
+            <mxPoint x="280" y="414.78999999999996" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
