@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T16:02:35.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zb2i4955eUjn07EI57T3" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T16:09:15.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HIRE8EWvo4AYedZklbrZ" version="22.0.8" type="github">
   <diagram name="Page-1" id="d61cFQMUThN0K3jyABDj">
-    <mxGraphModel dx="2043" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1717" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-102" value="Beefy API sources" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="2270" width="1260" height="830" as="geometry">
+          <mxGeometry x="-310" y="2920" width="1260" height="830" as="geometry">
             <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -273,7 +273,7 @@
           <mxGeometry x="1050" y="124" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-139" value="RPC Event sources" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="1860" width="1950" height="600" as="geometry">
+          <mxGeometry x="1130" y="2510" width="1950" height="600" as="geometry">
             <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -430,7 +430,7 @@
           <mxGeometry x="460" y="-400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-167" value="Blockchain Blocks" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1530" width="840" height="242.5" as="geometry">
+          <mxGeometry x="110" y="2180" width="840" height="242.5" as="geometry">
             <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -467,11 +467,11 @@
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mptU31HQFR-m2cuub4Bu-180" target="mptU31HQFR-m2cuub4Bu-166">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="830" y="610" as="sourcePoint" />
+            <mxPoint x="830" y="1260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-209" value="Contract Creation fetch" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1820" width="880" height="310" as="geometry">
+          <mxGeometry x="70" y="2470" width="880" height="310" as="geometry">
             <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -520,11 +520,11 @@
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="mptU31HQFR-m2cuub4Bu-234" target="mptU31HQFR-m2cuub4Bu-236">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-501" y="2493" as="sourcePoint" />
+            <mxPoint x="-501" y="3143" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="605" y="2199" />
-              <mxPoint x="10" y="2199" />
-              <mxPoint x="10" y="1990" />
+              <mxPoint x="605" y="2849" />
+              <mxPoint x="10" y="2849" />
+              <mxPoint x="10" y="2640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -532,7 +532,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-246" value="rpc workers" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="820" width="780" height="480" as="geometry">
+          <mxGeometry x="80" y="820" width="880.62" height="480" as="geometry">
             <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -597,10 +597,10 @@
           <mxGeometry x="80" y="375" width="98.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-263" value="query + result" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#d5e8d4;horizontal=0;strokeColor=#82b366;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
-          <mxGeometry x="680" y="137.5" width="30" height="110" as="geometry" />
+          <mxGeometry x="720" y="137.5" width="30" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-267" value="non-transient query errors" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;horizontal=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
-          <mxGeometry x="680" y="202.5" width="30" height="110" as="geometry" />
+          <mxGeometry x="720" y="202.5" width="30" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-269" value="Dynamicly discovered RPC properties" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;dashed=1;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
           <mxGeometry x="480" y="340" width="90" height="90" as="geometry" />
@@ -611,6 +611,9 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-272" value="&lt;span style=&quot;background-color: initial;&quot;&gt;remembers how reliable RPC are at the current time&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
           <mxGeometry x="600" y="360" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-411" value="&lt;h1&gt;RPC Workers&lt;/h1&gt;&lt;p&gt;We want a way to optimize queries sent to RPCs. This avoids paying too much to paid rpcs, route as much traffic as possible to free endpoints and make sure we get the data we need using retries and state caches.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
+          <mxGeometry x="520.62" y="25" width="359.38" height="115" as="geometry" />
+        </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-275" value="&lt;h1&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;Legend&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="-510" width="410" height="90" as="geometry" />
         </mxCell>
@@ -618,7 +621,7 @@
           <mxGeometry x="80" y="100" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-277" value="&lt;h1&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;Databarn&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1410" width="640" height="80" as="geometry" />
+          <mxGeometry x="90" y="2060" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-278" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=44.8;endSize=18.2;width=42.4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -664,6 +667,107 @@
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-343" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Any green pipe means we archive all events of this stream in archive storage&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1804" y="370" width="202.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-378" value="explorers workers" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1400" width="880" height="480" as="geometry">
+            <mxRectangle x="380" y="-230" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="298.25000000000045" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-380" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="298.25000000000045" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-381" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-382" target="mptU31HQFR-m2cuub4Bu-390">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-382" value="new explorer work requests" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;horizontal=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="148.75" y="155" width="30" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-383" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-384" target="mptU31HQFR-m2cuub4Bu-382">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-384" value="&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type of query: events in range, block details, balance, holders, etc&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;query details: chain, range, etc... depends on query type&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;priority: asap, important, when possible&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;retry profile: insist, drop it after X?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cache policy: skip state cache, use state cache&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="40" y="40" width="247.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-385" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-390" target="mptU31HQFR-m2cuub4Bu-393">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-386" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-390" target="mptU31HQFR-m2cuub4Bu-394">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317.55555555555566" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-387" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-390" target="mptU31HQFR-m2cuub4Bu-397">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-390" target="mptU31HQFR-m2cuub4Bu-398">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-390" value="Query optimizer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="331.25" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-391" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-392" target="mptU31HQFR-m2cuub4Bu-390">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-392" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Waits for &quot;enough&quot; queries to arrive&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;De-duplicate requests&lt;/li&gt;&lt;li&gt;Batches requests when possible&lt;/li&gt;&lt;li&gt;Knows about explorer query limitations&lt;/li&gt;&lt;li&gt;Knows about explorer rate limiting&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="261.87" y="80" width="258.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-393" value="Pending queries state" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="351.25" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-394" value="explorer config&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;list, limitations, urls, secrets" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="210" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-395" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-378" source="mptU31HQFR-m2cuub4Bu-396" target="mptU31HQFR-m2cuub4Bu-394">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-396" value="can probably be dynamic at some point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="80" y="375" width="98.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-397" value="query + result" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#d5e8d4;horizontal=0;strokeColor=#82b366;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="680" y="137.5" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-398" value="non-transient query errors" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;horizontal=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="680" y="202.5" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-412" value="&lt;h1&gt;Explorer Workers&lt;/h1&gt;&lt;p&gt;We want a way to optimize queries sent to RPCs. This avoids paying too much to paid rpcs, route as much traffic as possible to free endpoints and make sure we get the data we need using retries and state caches.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+          <mxGeometry x="520.62" y="22.5" width="359.38" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-402" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=44.8;endSize=18.2;width=42.4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="1640" as="sourcePoint" />
+            <mxPoint x="1100" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" source="mptU31HQFR-m2cuub4Bu-404" target="mptU31HQFR-m2cuub4Bu-409" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-404" value="&lt;span style=&quot;background-color: initial;&quot;&gt;This is a singleton, all instances of this block refers to the same instance of workers.&lt;br&gt;This is needed to avoid synchronization of rate limit&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1158.75" y="1470" width="202.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-405" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1291.25" y="1571.25" width="17.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-406" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="1618" width="7" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-407" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1291.25" y="1602.25" width="17.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-408" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1620" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-409" value="Explorer Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-410" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="1648.75" width="7" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
