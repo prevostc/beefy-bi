@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T16:09:15.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HIRE8EWvo4AYedZklbrZ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T16:12:07.493Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="tyvLKSQipu52s7v8nwUo" version="22.0.8" type="github">
   <diagram name="Page-1" id="d61cFQMUThN0K3jyABDj">
-    <mxGraphModel dx="1717" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -635,19 +635,19 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-290" value="&lt;span style=&quot;background-color: initial;&quot;&gt;This is a singleton, all instances of this block refers to the same instance of workers.&lt;br&gt;This is needed to avoid synchronization of rate limit&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1158.75" y="890" width="202.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-282" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-282" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1291.25" y="991.25" width="17.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-286" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
           <mxGeometry x="1348" y="1038" width="7" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-283" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-283" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1291.25" y="1022.25" width="17.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-281" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-281" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1040" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-279" value="RPC Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-279" value="RPC Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1020" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-287" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="1">
@@ -736,7 +736,7 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-398" value="non-transient query errors" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;horizontal=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
           <mxGeometry x="680" y="202.5" width="30" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-412" value="&lt;h1&gt;Explorer Workers&lt;/h1&gt;&lt;p&gt;We want a way to optimize queries sent to RPCs. This avoids paying too much to paid rpcs, route as much traffic as possible to free endpoints and make sure we get the data we need using retries and state caches.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-412" value="&lt;h1&gt;Explorer Workers&lt;/h1&gt;&lt;p&gt;We want a way to optimize queries sent to explorers. Avoids rate limiting and ensure we have proper retries in place.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-378">
           <mxGeometry x="520.62" y="22.5" width="359.38" height="115" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-402" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=44.8;endSize=18.2;width=42.4;" edge="1" parent="1">
@@ -751,19 +751,19 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-404" value="&lt;span style=&quot;background-color: initial;&quot;&gt;This is a singleton, all instances of this block refers to the same instance of workers.&lt;br&gt;This is needed to avoid synchronization of rate limit&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1158.75" y="1470" width="202.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-405" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-405" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1291.25" y="1571.25" width="17.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-406" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
           <mxGeometry x="1348" y="1618" width="7" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-407" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-407" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1291.25" y="1602.25" width="17.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-408" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-408" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1620" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-409" value="Explorer Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;" vertex="1" parent="1">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-409" value="Explorer Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1600" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-410" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="1">
