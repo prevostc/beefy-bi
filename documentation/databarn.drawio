@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T15:53:53.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uN0TSNhe2SsWLOFN-led" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T16:02:35.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zb2i4955eUjn07EI57T3" version="22.0.8" type="github">
   <diagram name="Page-1" id="d61cFQMUThN0K3jyABDj">
-    <mxGraphModel dx="2318" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2043" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -555,8 +555,8 @@
         <mxCell id="mptU31HQFR-m2cuub4Bu-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-246" source="mptU31HQFR-m2cuub4Bu-250" target="mptU31HQFR-m2cuub4Bu-249">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-250" value="&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type of query: events in range, contract call, block, balance&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;query details: chain, range, etc... depends on query type&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;priority: asap, when possible&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;retry profile: insist, drop it after X?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
-          <mxGeometry x="40" y="60" width="247.5" height="110" as="geometry" />
+        <mxCell id="mptU31HQFR-m2cuub4Bu-250" value="&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type of query: events in range, contract call, block, balance&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;query details: chain, range, etc... depends on query type&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;priority: asap, important, when possible&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;retry profile: insist, drop it after X?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cache policy: skip state cache, use state cache&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
+          <mxGeometry x="40" y="40" width="247.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-246" source="mptU31HQFR-m2cuub4Bu-252" target="mptU31HQFR-m2cuub4Bu-256">
           <mxGeometry relative="1" as="geometry" />
@@ -582,12 +582,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-253" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Waits for &quot;enough&quot; queries to arrive&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;De-duplicate requests&lt;/li&gt;&lt;li&gt;Batches requests when possible&lt;/li&gt;&lt;li&gt;Knows about RPC query limitations&lt;/li&gt;&lt;li&gt;Knows about RPC rate limiting&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
-          <mxGeometry x="261.88" y="70" width="258.75" height="90" as="geometry" />
+          <mxGeometry x="261.87" y="80" width="258.75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-256" value="Pending queries state" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
           <mxGeometry x="351.25" y="340" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-260" value="RPC query&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;limitations&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;config" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
+        <mxCell id="mptU31HQFR-m2cuub4Bu-260" value="RPC config&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;list, limitations, urls, secrets" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="mptU31HQFR-m2cuub4Bu-246">
           <mxGeometry x="210" y="340" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="mptU31HQFR-m2cuub4Bu-246" source="mptU31HQFR-m2cuub4Bu-261" target="mptU31HQFR-m2cuub4Bu-260">
@@ -622,39 +622,48 @@
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-278" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=44.8;endSize=18.2;width=42.4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="960" y="1065" as="sourcePoint" />
-            <mxPoint x="1140" y="1065" as="targetPoint" />
+            <mxPoint x="920" y="1060" as="sourcePoint" />
+            <mxPoint x="1100" y="1060" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-289" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1170" y="1020" width="185" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-285" value="" style="group" vertex="1" connectable="0" parent="mptU31HQFR-m2cuub4Bu-289">
-          <mxGeometry width="185" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-282" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-285">
-          <mxGeometry x="121.25" y="-28.75" width="17.5" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-283" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-285">
-          <mxGeometry x="121.25" y="2.25" width="17.5" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-281" value="in" style="shape=xor;whiteSpace=wrap;html=1;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-285">
-          <mxGeometry y="20" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-279" value="RPC Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-285">
-          <mxGeometry x="30" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-287" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-285">
-          <mxGeometry x="178" y="48.75" width="7" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="mptU31HQFR-m2cuub4Bu-286" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mptU31HQFR-m2cuub4Bu-289">
-          <mxGeometry x="178" y="18" width="7" height="17" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mptU31HQFR-m2cuub4Bu-290" target="mptU31HQFR-m2cuub4Bu-279">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mptU31HQFR-m2cuub4Bu-290" value="&lt;span style=&quot;background-color: initial;&quot;&gt;This is a singleton, all instances of this block refers to the same instance of workers.&lt;br&gt;This is needed to avoid synchronization of rate limit&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1158.75" y="890" width="202.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-282" value="out&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1291.25" y="991.25" width="17.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-286" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="1038" width="7" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-283" value="err&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2857142857142208;rotation=90;horizontal=0;align=right;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1291.25" y="1022.25" width="17.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-281" value="in" style="shape=xor;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1040" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-279" value="RPC Query&lt;br&gt;Workers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-287" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="1068.75" width="7" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-341" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=44.8;endSize=18.2;width=42.4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="520" as="sourcePoint" />
+            <mxPoint x="1780" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-342" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=8.5;rotation=90;fillColor=#d5e8d4;horizontal=0;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="470" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mptU31HQFR-m2cuub4Bu-343" target="mptU31HQFR-m2cuub4Bu-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mptU31HQFR-m2cuub4Bu-343" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Any green pipe means we archive all events of this stream in archive storage&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1804" y="370" width="202.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
