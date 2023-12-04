@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T22:40:17.873Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XafM8evzDbi7BPw4fzPS" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-04T22:49:09.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YMNwVV26uIVQFtp0WBPd" version="22.1.5" type="github" pages="2">
   <diagram id="RHRM-lToSc85SkSAnhGa" name="Simple ELT">
-    <mxGraphModel dx="5516" dy="3708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,8 +63,8 @@
         <mxCell id="MGoUHBoFW_HpmF7n7G96-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="MGoUHBoFW_HpmF7n7G96-18" source="MGoUHBoFW_HpmF7n7G96-100" target="MGoUHBoFW_HpmF7n7G96-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MGoUHBoFW_HpmF7n7G96-100" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;We force all transformations to use DBT for 2 reasons:&lt;/span&gt;&lt;/div&gt;- Portability: we allow us to change the storage if needed&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- It&#39;s restricted to data already present in the landing zone so we ensure the architecture is respected&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MGoUHBoFW_HpmF7n7G96-18">
-          <mxGeometry x="397.5" y="709" width="310" height="71" as="geometry" />
+        <mxCell id="MGoUHBoFW_HpmF7n7G96-100" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;We force all transformations to use DBT for 2 reasons:&lt;/span&gt;&lt;/div&gt;- Portability: we allow us to change the storage if needed, even switching to cloud and spark SQL if needed&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- It&#39;s restricted to data already present in the landing zone so we ensure the architecture is respected&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MGoUHBoFW_HpmF7n7G96-18">
+          <mxGeometry x="397.5" y="709" width="310" height="81" as="geometry" />
         </mxCell>
         <mxCell id="MGoUHBoFW_HpmF7n7G96-102" value="postgres_fdw" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="MGoUHBoFW_HpmF7n7G96-18">
           <mxGeometry x="897.5" y="340" width="85" height="30" as="geometry" />
@@ -315,7 +315,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="overkill-streaming-design" id="d61cFQMUThN0K3jyABDj">
-    <mxGraphModel dx="3576" dy="2963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5620" dy="4360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
